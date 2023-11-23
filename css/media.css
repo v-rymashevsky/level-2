@@ -77,21 +77,31 @@
 
     .section-intro {
 
-        margin-bottom: 30px;
+        margin-bottom: 0;
     }
 
     .section-title {
 
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .section-descr {
         font-size: 14px;
+        padding: 33px;
     }
 
 
     .unique__tablet {
-        background-position: center;
+        width: 447px;
+        height: 335px;
+    }
+
+    .unique__tablet::after {
+
+        width: 136px;
+        height: 279px;
+
+
     }
 
     .what-we-do {
@@ -103,15 +113,26 @@
         height: 409px;
     }
 
+    .services .separator--section {
+        margin-bottom: 68px;
+    }
 
-    .reviews__container {
+    .services__container {
 
-        grid-template-rows: repeat(2, 1fr);
+        gap: 55px 22px;
     }
 
 
 
-    .reviews__icon {
+    .reviews__container {
+
+        grid-template-rows: auto;
+    }
+
+
+
+    .reviews__icon,
+    .reviews-2__icon {
 
         width: 115px;
         height: 115px;
@@ -139,8 +160,75 @@
 
     }
 
+    .our-team {
+
+        padding: 58px 0;
+    }
+
+    .our-team .section-descr {
+
+        margin-bottom: 49px;
+    }
+
+    .our-work {
+        padding: 58px 0;
+    }
+
+    .our-work .section__title {
+
+        margin-bottom: 16px;
+    }
+
+    .our-work .section-descr {
+
+        margin-bottom: 28px;
+    }
+
+    .feedback-card__icon {
+        width: 88px;
+        height: 88px;
+
+    }
 
 
+    .feedback-card__name {
+        font-size: 18px;
+    }
+
+    .feedback-card__occupation,
+    .feedback-card__comment {
+
+        font-size: 14px;
+    }
+
+    .feedback-card__occupation,
+    .feedback-card__divider {
+        margin-bottom: 21px;
+    }
+
+
+    .our-stories {
+        padding: 58px 0;
+    }
+
+
+    .our-stories__date {
+
+        right: 75%;
+        width: 30%;
+        height: 30%;
+
+
+    }
+
+
+    .footer {
+        padding-top: 28px;
+    }
+
+    .sub-form__button {
+        font-size: 14px;
+    }
 
 
     .blogs__img {
@@ -165,17 +253,14 @@
         width: 100%;
     }
 
-    .unique__tablet::after {
 
-        top: 45%;
-        right: 13%;
-
-
+    .accordion__section-name {
+        font-size: 20px; 
     }
 
-
     .our-team__pfp {
-        height: 200px;
+        height: 230px;
+        background-position: center; 
     }
 
     .services__container {
@@ -199,17 +284,19 @@
 
     .happy-clients__container {
 
-        gap: 30px; 
+        gap: 30px;
     }
 
 
-    .feedback-card__occupation, .feedback-card__divider {
-        margin-bottom: 20px; 
+    .feedback-card__occupation,
+    .feedback-card__divider {
+        margin-bottom: 20px;
     }
 
-    .feedback-card__occupation, .feedback-card__comment {
+    .feedback-card__occupation,
+    .feedback-card__comment {
         font-size: 16px;
-        
+
     }
 
     .feedback-card__icon {
@@ -218,7 +305,31 @@
 
     }
 
-    
+    .our-stories__date {
+
+        bottom: 0;
+        left: 0;
+        width: 40%;
+        height: 30%;
+
+    }
+
+
+    .footer__container {
+        flex-direction: column;
+    }
+
+    .footer__socials,
+    .blog__instagram,
+    .photos-grid__photo {
+        width: 100%;
+    }
+
+    .instagram__photos-grid {
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+
 
 
 }
@@ -488,9 +599,9 @@ screen and (max-width: 480px) {
     }
 
     .unique__tablet {
-        background-position: center;
-        background-size: cover;
+
         height: 219px;
+        width: 286px;
 
     }
 
@@ -509,6 +620,10 @@ screen and (max-width: 480px) {
     .what-we-do__items-container {
         flex-direction: column;
 
+    }
+
+    .what-we-do .section-descr {
+        margin-bottom: 36px;
     }
 
 
@@ -872,7 +987,7 @@ screen and (max-width: 480px) {
     }
 
     .our-stories__date {
-        right: auto;
+        width: 30%;
     }
 
     .our-stories__img {

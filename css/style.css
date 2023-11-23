@@ -12,6 +12,7 @@ html {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     line-height: normal;
+    color: #2D3033;
 
 }
 
@@ -702,25 +703,28 @@ section {
 
 
 .unique__tablet {
-
     position: relative;
     z-index: 0;
-    background-image: url(../img/unique_tablet.svg);
-    height: 525px;
-
+    background-image: url(../img/unique_tablet.png);
+    width: 659px;
+    height: 494px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
 }
 
 
 .unique__tablet::after {
     content: "";
-    background: url(../img/unique_phone.svg);
+    background: url(../img/unique_phone.png);
     display: block;
     position: absolute;
-    bottom: -120px;
-    right: 200px;
+    bottom: -25%;
+    right: -10%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 411px;
+    height: 412px;
     width: 200px;
 }
 
@@ -780,8 +784,7 @@ details {
 }
 
 .accordion__icon {
-    width: 42px;
-    height: 42px;
+    display: flex;
 }
 
 
@@ -947,7 +950,7 @@ details {
     background: #F38281;
     width: 70px;
     position: relative;
-    bottom: -33px;
+    bottom: -56px;
 }
 
 
@@ -974,11 +977,7 @@ details {
 
 }
 
-.author--reviews-2 {
 
-    align-self: center;
-
-}
 
 
 .reviews__dots {
