@@ -861,6 +861,18 @@ screen and (max-width: 480px) {
 
     }
 
+
+
+    .img--wth3 .our-work__overlay {
+
+        transform: scale(0, 1);
+
+    }
+
+
+
+ 
+
     .overlay__prize-icon {
         width: 20px;
         height: 20px;
@@ -879,6 +891,10 @@ screen and (max-width: 480px) {
 
         font-size: 9px;
 
+    }
+
+    .our-work {
+        padding: 29px 0 0 0; 
     }
 
 
@@ -915,6 +931,11 @@ screen and (max-width: 480px) {
     .reviews__container {
 
         display: block;
+    }
+
+    .reviews-2 {
+
+        margin-bottom: 0; 
     }
 
     .reviews__author {

@@ -1155,6 +1155,8 @@ details {
 
 }
 
+
+
 .our-work__img:hover .our-work__overlay {
     transform: translateY(0);
     transform: scale(1, 1);
