@@ -173,6 +173,11 @@
 
     }
 
+
+    .our-team__pfp {
+        height: 200px;
+    }
+
     .services__container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -180,6 +185,40 @@
         gap: 100px 30px;
 
     }
+
+    .reviews__icon,
+    .reviews-2__icon {
+
+        width: 100px;
+        height: 100px;
+    }
+
+    .reviews__text {
+        font-size: 16px;
+    }
+
+    .happy-clients__container {
+
+        gap: 30px; 
+    }
+
+
+    .feedback-card__occupation, .feedback-card__divider {
+        margin-bottom: 20px; 
+    }
+
+    .feedback-card__occupation, .feedback-card__comment {
+        font-size: 16px;
+        
+    }
+
+    .feedback-card__icon {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    
 
 
 }
@@ -603,8 +642,8 @@ screen and (max-width: 480px) {
     }
 
     .partners__icon {
-        width: 100%;
         height: 100%;
+        width: 100%;
     }
 
 
