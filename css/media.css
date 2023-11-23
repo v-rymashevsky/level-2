@@ -253,14 +253,21 @@
         width: 100%;
     }
 
+    .story__card {
+
+
+        height: 250px;
+
+    }
+
 
     .accordion__section-name {
-        font-size: 20px; 
+        font-size: 20px;
     }
 
     .our-team__pfp {
         height: 230px;
-        background-position: center; 
+        background-position: center;
     }
 
     .services__container {
