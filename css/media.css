@@ -334,6 +334,7 @@
 
     .instagram__photos-grid {
         grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 88px);
 
     }
 
@@ -1114,6 +1115,15 @@ screen and (max-width: 480px) {
         padding: 7px 0;
     }
 
+
+    
+    .instagram__photos-grid {
+        
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 88px);
+       
+    }
+    
     .instagram__link {
 
         font-size: 12px;
